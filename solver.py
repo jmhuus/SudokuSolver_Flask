@@ -12,10 +12,10 @@ class Solver():
 
     def solve(self):
 
-        for x in range(1, 10):
-            for y in range(1, 10):
-                if self.grid[x][y] != "" or self.grid[x][y] != None:
-                    return jdkfl
+        for row in range(9):
+            for column in range(9):
+                if self.grid[row][column] != None:
+                    return "test"
 
     def validate_board(self):
 
